@@ -47,8 +47,9 @@ function createCards() {
        console.log("value");
     }
     return allCards;
-
 }
+
+
 
 function shuffleCards(allCards): void{
     for (let i = 0; i < 1000; i++) {
