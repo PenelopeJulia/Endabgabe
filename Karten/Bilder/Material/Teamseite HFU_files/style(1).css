@@ -1,0 +1,14 @@
+body {
+    font-family: arial;
+	font-size: small;
+    background-color: black;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color:goldenrod;
+}
