@@ -4,16 +4,29 @@
     padding: 0;
 }
 
+
+/* Body - Schrift und Hintergrundfarbe festlegen */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    background-color: #0da7ee;
+}
+
 button {
-    width: 50px; 
+    width: 80px; 
     height: 40px;
     background-color: #007ab3;
     font-family: Arial, Helvetica, sans-serif;
-    color: #ffffff;
+    font-size: 20px;
+    padding: 10px;
+    color: #00098b;
     position: absolute;
-    top: 330px;
-    left: 20px;
+    top: 345px;
+    left: 280px;
+    border-radius: 15px;
     border: none;
+    padding: 1px;
+    box-shadow: 5px 5px;
 }
 
 button:hover {
@@ -23,6 +36,7 @@ button:hover {
 /* Body - Schrift und Hintergrundfarbe festlegen */
 body {
     font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
     background-color: #0da7ee;
 }
 
@@ -33,7 +47,6 @@ body {
 	width: 95%;
 	height: 210px;
     border-radius: 15px;
-    border-style: solid;
     background-color: #007ab3;
 }
 
@@ -45,7 +58,6 @@ body {
 	width: 95%;
 	height: 210px;
     border-radius: 15px;
-    border-style: solid;
     background-color: #84d8ff;
 }
 
@@ -53,11 +65,23 @@ body {
     color: #ffffff;
 }
 
+.blue {
+    background-color: aliceblue;
+    width: 100px;
+    height: 100px;
+}
 
 
 
-
-
+img {
+    position: relative;
+    width: 15%;
+    height: auto;
+    z-index: -1;
+    top: -5px;
+    left:4%;
+    opacity: 80%;
+}
 
 
 

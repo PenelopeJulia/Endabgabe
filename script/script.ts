@@ -14,6 +14,8 @@ let playCardStack: cards[] = []; // Array für den Ablagestapel
 let cardsHuman: cards[] = []; // Karten des Spielers
 let cardsComputer: cards[]; // Karten des Computers
 
+let initialCards: number = 3;
+
 let value: string[] = ["A", "K", "D", "B", "10", "9", "8", "7"];
 let color: string[] = ["blue", "green", "red", "yellow"];
 let allCards = createCards();
@@ -34,24 +36,46 @@ console.log(allCards);
 }
 
 // In Gruppenarbeit mit Celine entstanden
+
+// Den Karten wird der zugehörige Wert (Rick & Morty Charaktere) und die Farben (blau, grün, rot, gelb) zugeordnet
 function createCards() {
+
+    let cardValue: string;
 
     let allCards = [];
 
     for (let v = 0; v < value.length; v++) {
-       for (let c = 0; c < color.length; c++) {
+        if (v == 0) {
+            cardValue = "ace";
+        } else if (v == 1) {
+            cardValue = "king";
+        } else if (v == 2) {
+            cardValue = "queen";
+        } else if (v == 3) {
+            cardValue = "jack";
+        } else if (v == 4) {
+            cardValue = "10";
+        } else if (v == 5) {
+            cardValue = "9";
+        } else if (v == 6) {
+            cardValue = "8";
+        } else if (v == 7) {
+            cardValue = "7";
+        }
+
+        for (let c = 0; c < color.length; c++) {
            let valueCards: string = value[v];
            let colorCards: string = color[c];
            allCards.push({valueCards, colorCards});
        }
-       console.log("value");
+        console.log("value");
     }
     return allCards;
 }
 
 
-
-function shuffleCards(allCards): void{
+// Bei Klick auf den Start-Button werden alle Karten zufällig gemischt
+function shuffleCards(allCards): void {
     for (let i = 0; i < 1000; i++) {
         let location1: number = Math.floor((Math.random() * allCards.length));
         let location2: number = Math.floor((Math.random() * allCards.length));
@@ -61,6 +85,10 @@ function shuffleCards(allCards): void{
         allCards[location2] = tmp;
 
     }
-};
+}
+
+
+//function discard;
+
 
 }
