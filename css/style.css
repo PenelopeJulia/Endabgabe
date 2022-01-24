@@ -40,7 +40,7 @@ body {
     background-color: #0da7ee;
 }
 
-.computer {
+#computer {
     position: absolute;
 	margin: 1% 0 2% 2%;
     padding: 3px;
@@ -50,7 +50,7 @@ body {
     background-color: #007ab3;
 }
 
-.human {
+#human {
     position: relative; 
 	margin: 0.5% 0 2% 2%;
     padding: 3px;
@@ -61,7 +61,7 @@ body {
     background-color: #84d8ff;
 }
 
-.stacks {
+#stacks {
     color: #ffffff;
 }
 
@@ -69,6 +69,62 @@ body {
     background-color: aliceblue;
     width: 100px;
     height: 100px;
+}
+
+.blueCard{
+    background-image: url("/Karten/Bilder/Transparent/König.png") ;
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-color: #3bb1ff;
+    border-radius: 12px;
+    border: solid;
+    border-width: 2px;
+    border-color: #115468;
+    width: 100px;
+    height: 180px;
+    float: left;
+}
+
+.greenCard {
+    background-image: url("/Karten/Bilder/Transparent/Bube.png");
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-color: #61b656;
+    border-radius: 12px;
+    border: solid;
+    border-width: 2px;
+    border-color: #115468;
+    width: 100px;
+    height: 180px;
+    float: left;
+}
+
+.redCard {
+    background-image: url("/Karten/Bilder/Transparent/Dame.png");
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-color: #ff7575;
+    border-radius: 12px;
+    border: solid;
+    border-width: 2px;
+    border-color: #115468;
+    width: 100px;
+    height: 180px;
+    float: left;
+}
+
+.yellowCard {
+    background-image: url("/Karten/Bilder/Transparent/10.png");
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-color: #ffdf75;
+    border-radius: 12px;
+    border: solid;
+    border-width: 2px;
+    border-color: #115468;
+    width: 100px;
+    height: 180px;
+    float: left;
 }
 
 
