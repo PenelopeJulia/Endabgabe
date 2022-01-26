@@ -20,9 +20,9 @@ button {
     font-size: 20px;
     padding: 10px;
     color: #00098b;
-    position: absolute;
-    top: 345px;
-    left: 280px;
+    position: relative;;
+    top: 370px;
+    left: 150px;
     border-radius: 15px;
     border: none;
     padding: 1px;
@@ -42,7 +42,7 @@ body {
 
 #computer {
     position: absolute;
-	margin: 1% 0 2% 2%;
+	margin: -1.5% 0 2% 2%;
     padding: 3px;
 	width: 95%;
 	height: 210px;
@@ -54,25 +54,72 @@ body {
     position: relative; 
 	margin: 0.5% 0 2% 2%;
     padding: 3px;
-    top: 500px;
+    top: 470px;
 	width: 95%;
 	height: 210px;
     border-radius: 15px;
     background-color: #84d8ff;
 }
 
+
 #stacks {
-    color: #ffffff;
+    position: absolute;
+    color: #cde2e6;
+    border-radius: 20px;
+    width: 50%;
+    height: 220px;
+    top: 268px;
+    left: 360px;
+    z-index: -1;
+    margin: 0% 0% 2% 0%; 
 }
 
-.blue {
-    background-color: aliceblue;
+
+#drawCardStack {
+    position: relative;
+    margin-top: 14px;
+	margin-left: 320px;;
+	margin-right: 5px;;
+}
+
+#playCardStack {
+    position: absolute;
+    margin-top: 2px;
+	margin-left: 40px;;
+	margin-right: 5px;;
+}
+
+.numberOfCards {
+	color: #002291;
+    opacity: 30%;
+	font-size: 29px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-left: 60%;
+	margin-top: 130%;
+    -ms-transform: rotate(270deg); 
+    transform: rotate(270deg);
+    
+}
+
+.backside {
+    background-image: url("/Karten/Bilder/Transparent/rückseite.png") ;
+    background-position: center;
+    background-size: 100px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    border: solid;
+    border-width: 2px;
+    border-color: #115468;
     width: 100px;
-    height: 100px;
+    height: 180px;
+    float: left;
+    margin: 1% 0% 5% 0%; 
+   
 }
 
 .blueCard{
     background-image: url("/Karten/Bilder/Transparent/König.png") ;
+    background-position: center;
     background-size: 70px;
     background-repeat: no-repeat;
     background-color: #3bb1ff;
@@ -83,10 +130,12 @@ body {
     width: 100px;
     height: 180px;
     float: left;
+    margin: 0.7% 0% 5% 0%; 
 }
 
 .greenCard {
     background-image: url("/Karten/Bilder/Transparent/Bube.png");
+    background-position: center;
     background-size: 50px;
     background-repeat: no-repeat;
     background-color: #61b656;
@@ -97,10 +146,12 @@ body {
     width: 100px;
     height: 180px;
     float: left;
+    margin: 0.7% 0% 5% 0%; 
 }
 
 .redCard {
     background-image: url("/Karten/Bilder/Transparent/Dame.png");
+    background-position: center;
     background-size: 40px;
     background-repeat: no-repeat;
     background-color: #ff7575;
@@ -111,10 +162,12 @@ body {
     width: 100px;
     height: 180px;
     float: left;
+    margin: 0.7% 0% 5% 0%; 
 }
 
 .yellowCard {
     background-image: url("/Karten/Bilder/Transparent/10.png");
+    background-position: center;
     background-size: 80px;
     background-repeat: no-repeat;
     background-color: #ffdf75;
@@ -125,21 +178,8 @@ body {
     width: 100px;
     height: 180px;
     float: left;
+    margin: 0.7% 0% 5% 0%; 
 }
-
-
-
-img {
-    position: relative;
-    width: 15%;
-    height: auto;
-    z-index: -1;
-    top: -5px;
-    left:4%;
-    opacity: 80%;
-}
-
-
 
 /* Footer am unteren Rand der Seite absolut zum Wrapper positionieren*/
 .footer {

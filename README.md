@@ -1,7 +1,7 @@
 // Browser
 Ich habe Chrome zum Testen meines Kartenspiels genutzt!
 
-
+13 Zoll Bildschirm
 
 // Werte der Karten
 
