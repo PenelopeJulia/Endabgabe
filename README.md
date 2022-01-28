@@ -1,19 +1,15 @@
-// Browser
+> Browser
 Ich habe Chrome zum Testen meines Kartenspiels genutzt!
 
 13 Zoll Bildschirm
 
-// Werte der Karten
+> Werte der Karten
 
-Die Karten haben in ihrem Namen bereits den zugeteilten Wert.
+Die Karten wurden von der Zeichentrickshow Rick & Morty inspiriert!
 
-Ass: Rick and Morty
+Meine Kartenelemente sind mit Photoshop bearbeitet und über TS eingefügt und in CSS auf der Karte positioniert und gestylt worden.
 
-König: Rick 
-Dame: Summer 
-Bube: Morty
-
-10: Meeseeks
-9: Mr. PoopyButthole
-8: Birdperson
-7: Squanchy
+Blau = Rick
+Rot = Summer
+Grün = Morty
+Gelb = Meeseeks
